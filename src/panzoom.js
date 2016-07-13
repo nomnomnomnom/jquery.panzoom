@@ -890,7 +890,7 @@
 						!options.disablePan && e.which === 1) {
 
 						e.preventDefault();
-						e.stopPropagation();
+						// e.stopPropagation(); // why was this here?
 						self._startMove(e, touches);
 					}
 				};
